@@ -1,0 +1,34 @@
+{
+  "name": "servicehub.auth",
+  "version": "0.0.1",
+  "description": "web service for jwt token authentication",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "jsonwebtoken": "^5.0.2",
+    "mongoose": "^4.0.7",
+    "morgan": "^1.6.1",
+    "node-mysql": "^0.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RGDevMaster/e-House.git"
+  },
+  "keywords": [
+    "auth",
+    "token",
+    "oauth2",
+    "jwt"
+  ],
+  "author": "Alex Gola, Francesco Rossetto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RGDevMaster/e-House/issues"
+  },
+  "homepage": "https://github.com/RGDevMaster/e-House#readme"
+}
